@@ -1,0 +1,53 @@
+html {
+  background-image: linear-gradient(red, white, blue); 
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+#certArea {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#certArea h3 {
+  color: red;
+}
+
+#displayArea {
+  border: 3px solid #fff;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 100%;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#certList {
+  border: 3px solid #fff;
+  margin-right: 5px;
+  border-radius: 15px 0px 0px 15px;
+  color: #fff;
+  background-color: #000;
+  padding-left: 15px;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#certList button {
+  background-color: #000;
+  border: none;
+  color: white;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ken S. Certs</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico";
+  </head>
+
+  <body>
+    <header>
+      <h1>Ken S. Certificates</h1>
+    </header>
+
+    <main>
+
+      <div id="certArea">
+
+        <div id="certList">
+          <h3>W3 Schools</h3>
+          <ul>
+            <li><button onClick="w3WebDev()">Web App Dev</button></li>
+            <li><button onClick="w3FrontEnd()">Front End Dev</button></li>
+            <li><button onClick="w3html()">HTML</button></li>
+            <li><button onClick="w3css()">CSS</button></li>
+            <li><button onClick="w3js()">JavaScript</button></li>
+            <li><button onClick="w3php()">PHP</button></li>
+            <li><button onClick="w3sql()">SQL</button></li>
+          </ul>
+
+          <h3>SoloLearn</h3>
+            <ul>
+              <li><button onClick="soloHTML()">HTML</button></li>
+              <li><button onClick="soloCSS()">CSS</button></li>
+              <li><button onClick="soloJS()">JavaScript</button></li>
+              <li><button onClick="soloWebDev()">Web Dev</button></li>
+              <li><button onClick="soloRespWebDev()">Responsive Web</button></li>
+              <li><button onClick="soloGameDevJS()">Game Dev JS</button></li>
+              <li><button onClick="soloPHP()">PHP</button></li>
+              <li><button onClick="soloJQuery()">jQuery</button></li>
+              <li><button onClick="soloSQL()">SQL</button></li>
+              <li><button onClick="soloCSharp()">C#</button></li>
+            </ul>
+
+        </div>
+
+        <div id="displayArea">
+
+          <div id="certDisplay">
+            <h3>Certificate</h3>
+            <div id="noCertSelected" style="display: block;">
+              Please Select a Certificate
+            </div>
+          <div id="certSelected" style="display: none;">
+            <img src="images/placeholder.png" id="certImg"></img>
+            <h3>URL</h3>
+            <button onClick="viewCert()" id="viewButton">View</button>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+    <script src="scripts.js"></script>
+
+  </body>
+
+</html>
