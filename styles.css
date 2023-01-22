@@ -49,5 +49,11 @@ ul {
 #certList button {
   background-color: #000;
   border: none;
-  color: white;
+  color: #fff;
+}
+
+#certList button:hover {
+  background-color: #FFF;
+  border: none;
+  color: #000;
 }
